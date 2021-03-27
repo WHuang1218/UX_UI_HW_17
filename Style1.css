@@ -20,7 +20,7 @@ ul {
 li {
   margin: 15px;
   font-family: raleway;
-  padding: 0;
+  padding: 2px;
 }
 
 #title {
@@ -121,19 +121,29 @@ li a:hover {
 
 .footer { 
   background-color: #F2E9D8;
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
 }
 
 li2 {
-  margin: 15px;
   font-family: raleway;
-  padding: 0;
+  padding: 5px;
+  margin: 5px;
+  display: inline;
+  
+ 
+  
 }
 
 #title2 {
-  margin-right: auto;
+  
   font-weight: bold;
   font-size: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 
 li2 a {
@@ -146,3 +156,4 @@ li2 a {
    font-weight: bold;
    color: #59544A;
  }
+

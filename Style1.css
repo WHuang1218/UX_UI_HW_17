@@ -4,7 +4,7 @@ body {
 }
 
 nav {
-    background-color: #F2F2F2;
+    background-color: #F2E9D8;
 }
 
 
@@ -64,7 +64,9 @@ li a:hover {
 
     /* Text styles */
     text-align: center;
-    color: whitesmoke;
+    color: #F2E9D8;
+    text-shadow: 2px 2px #A69886;
+    
 }
 
 .hero h1{
@@ -91,11 +93,12 @@ li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("AdobeStock_292062476.jpg");
+    background-image: url("AdobeStock_366445666.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 
 
@@ -111,8 +114,8 @@ li a:hover {
 .button {
     width: 50%;
     border: none;
-    background-color: black;
-    color: white;
+    background-color: #59544A;
+    color: #F2E9D8;
     padding: 10px;
     font-size: 16px;
     border-radius: 10px 10px 10px 10px;
@@ -141,7 +144,7 @@ li2 {
 #title2 {
   
   font-weight: bold;
-  font-size: 20px;
+  font-size: 30px;
   padding: 5px;
   margin: 5px;
 }

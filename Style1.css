@@ -1,0 +1,125 @@
+
+body {
+  margin: 0px;
+}
+
+nav {
+    background-color: #F2F2F2;
+}
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 20px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0px; 
+}
+
+li {
+  margin: 15px;
+  font-family: raleway;
+  padding: 0;
+}
+
+#title {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+
+li a {
+ color: #A69886;
+ text-decoration: none; 
+}
+
+li a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #59544A;
+}
+
+@media (max-width: 1000px) {
+    ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+    }
+    .li {
+        flex-basis: 100%;
+        text-align: center;
+    }
+  }
+  .hero {
+    /* SIZING */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Text styles */
+    text-align: center;
+    color: whitesmoke;
+}
+
+.hero h1{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero h3{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("/Users/jasonhuang/Documents/My Code/AdobeStock_234194782 (2).jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.text {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+   }
+
+.button {
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+ 
+.footer {
+    color:coral;
+}
+

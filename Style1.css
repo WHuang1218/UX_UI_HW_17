@@ -91,7 +91,7 @@ li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("/Users/jasonhuang/Documents/My Code/AdobeStock_234194782 (2).jpg");
+    background-image: url("AdobeStock_292062476.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -118,8 +118,31 @@ li a:hover {
     border-radius: 10px 10px 10px 10px;
     margin-top: 20px;
 }
- 
-.footer {
-    color:coral;
+
+.footer { 
+  background-color: #F2E9D8;
+  padding: 10px;
 }
 
+li2 {
+  margin: 15px;
+  font-family: raleway;
+  padding: 0;
+}
+
+#title2 {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+li2 a {
+  color: #A69886;
+  text-decoration: none; 
+ }
+ 
+ li2 a:hover {
+   text-decoration: underline;
+   font-weight: bold;
+   color: #59544A;
+ }

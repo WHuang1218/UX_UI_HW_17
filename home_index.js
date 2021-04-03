@@ -1,3 +1,4 @@
+
 const doc = document;
 const menuOpen = doc.querySelector(".menu");
 const menuClose = doc.querySelector(".close");
@@ -10,3 +11,8 @@ menuOpen.addEventListener("click", () => {
 menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
+
+function fade() {
+  $('.preloader').fadeOut("slow");
+  }
+  setTimeout(fade, 1000);

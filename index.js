@@ -11,3 +11,7 @@ menuClose.addEventListener("click", () => {
   overlay.classList.remove("overlay--active");
 });
 
+function fade() {
+  $('.wrapper').fadeOut("slow");
+  }
+  setTimeout(fade, 1000);

@@ -4,20 +4,20 @@
   padding: 0;
 }
 
-header {
+navigation {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252a;
+  background-color: #060B0E;
 }
 
 .logo {
   margin-right: auto;
   text-decoration: none;
-  color:#A69886;
+  color:#faebd7;
   font-weight: bold;
-  font-size: larger;
+  font-size: 30px;
 }
 
 .nav__links {
@@ -29,8 +29,8 @@ header {
 .cta,
 .overlay__content a {
   font-family: "raleway", sans-serif;
-  font-weight: 500;
-  color: #A69886;
+  font-weight: 600;
+  color: #F2E9D8;
   text-decoration: none;
 }
 
@@ -43,22 +43,23 @@ header {
 }
 
 .nav__links li a:hover {
-  color: #59544A;
-  font-weight: bold;
+  color: #A69886;
+  text-decoration: underline;
+  
 }
 
 .cta {
   margin-left: 20px;
   padding: 9px 25px;
-  background-color:#59544A;
+  background-color:#00754C ;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
 
 .cta:hover {
-  background-color: #F2E9D8;
+  background-color: #59544A;
 }
 
 /* Mobile Nav */
@@ -100,7 +101,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #F2E9D8;
+  color: #F4AB2B ;
 
 }
 .overlay .close {
@@ -112,7 +113,7 @@ header {
   cursor: pointer;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 500px) {
   .overlay a {
     font-size: 20px;
   }
@@ -123,7 +124,7 @@ header {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .nav__links,
   .cta {
     display: none;
@@ -133,6 +134,81 @@ header {
   }
 }
 
-body {
-  background-color: #24252a;
+img {
+  border-radius: 15px;
+  box-shadow: 1px 2px 30px #59544A;
+  margin-bottom: 15px;
 }
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+section {
+  background-color: #F2E9D8;
+}
+
+h1 { 
+  font-size: 100px;
+  padding: 15px;
+  display: flex;
+  justify-content:right;
+}
+
+h2{
+  font-size: 40px;
+  line-height: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 150%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size:18px;
+}
+
+p2 {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+
+
+ul2 {
+  font-size: 25px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 150%;
+}
+
+li2{
+  padding: 25px;
+  text-decoration: none;
+}
+
+.container{
+  padding: 30px;
+}
+
+.button {
+padding: 15px 25px;
+font-size: 20px;
+text-align: center;
+cursor: pointer;
+outline: none;
+color: #F2E9D8;
+background-color: #00754C;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #a8c9bf;
+}
+
+.button:hover {background-color: #006243}
+
+.button:active {
+background-color: #006243;
+box-shadow: 0 5px #43A072;
+transform: translateY(4px);}

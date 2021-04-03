@@ -9,16 +9,17 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
-  background-color: #24252a;
+  background-color: #060B0E;
 }
 
 .logo {
   margin-right: auto;
   text-decoration: none;
-  color:#A69886;
+  color: #faebd7;
   font-weight: bold;
-  font-size: larger;
+  font-size: 30px;
 }
+
 
 .nav__links {
   list-style: none;
@@ -29,8 +30,8 @@ header {
 .cta,
 .overlay__content a {
   font-family: "raleway", sans-serif;
-  font-weight: 500;
-  color: #A69886;
+  font-weight: 600;
+  color: #F2E9D8;
   text-decoration: none;
 }
 
@@ -43,22 +44,22 @@ header {
 }
 
 .nav__links li a:hover {
-  color: #59544A;
-  font-weight: bold;
+  color: #A69886;
+  text-decoration: underline ;
 }
 
 .cta {
   margin-left: 20px;
   padding: 9px 25px;
-  background-color:#59544A;
+  background-color:#00754C;
   border: none;
-  border-radius: 50px;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
 
 .cta:hover {
-  background-color: #F2E9D8;
+  background-color: #59544A;
 }
 
 /* Mobile Nav */
@@ -100,7 +101,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #F2E9D8;
+  color: #F4AB2B;
 
 }
 .overlay .close {
@@ -112,7 +113,7 @@ header {
   cursor: pointer;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 500px) {
   .overlay a {
     font-size: 20px;
   }
@@ -152,7 +153,7 @@ header {
 
 .hero {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -165,18 +166,19 @@ header {
 }
 
 .hero-inner {
-  color:  #24252a;
-  text-shadow: 1px 1px #F2E9D8;
+  color:  #363538;
+  text-shadow: 2px 2px  #8D8C8A;
+  font-family: monospace;
+  font-size: 15px;
 }
-
-
 
 .text {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  font-size: 35px;
+  padding: 25px;
+  font-size: 25px;
   text-align: center;
+  font-family: monospace;
    }
 
 .button {
@@ -189,11 +191,31 @@ header {
     border-radius: 10px 10px 10px 10px;
     margin-top: 20px;
 }
+.button {
+  padding: 15px 25px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #F2E9D8;
+  background-color: #00754C;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #a8c9bf;
+}
+
+.button:hover {background-color: #006243}
+
+.button:active {
+  background-color: #006243;
+  box-shadow: 0 5px #43A072;
+  transform: translateY(4px);}
+  
 
 .footer { 
   background-color: #F2E9D8;
-  padding: 5px;
-  margin: 5px;
+  padding: 20px 10%;
+  margin: 0;
   display: flex ;
   justify-content: center;
   align-items: center;
@@ -205,13 +227,10 @@ li2 {
   margin: 5px;
   display: inline;
   
- 
-  
 }
 
 #title2 {
   
-  font-weight: bold;
   font-size: 30px;
   padding: 5px;
   margin: 5px;
@@ -224,14 +243,13 @@ li2 a {
  
  li2 a:hover {
    text-decoration: underline;
-   font-weight: bold;
-   color: #59544A;
+   color: #24252a;
  }
 
 .image {
   display: flex;
   justify-content: center;
-  padding: 15px;
+  padding: 25px;
 
 }
 .profile-pic {
@@ -240,3 +258,4 @@ li2 a {
   object-fit:cover;
   border-radius: 50%;
 }
+

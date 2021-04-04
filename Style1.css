@@ -346,6 +346,11 @@ p3 {
   color: white;
 }
 
+body {
+  background-color: #F2E9D8;
+  
+}
+
 .preloader {
   position: fixed;
   width: 100%;

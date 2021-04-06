@@ -14,4 +14,4 @@ menuClose.addEventListener("click", () => {
 function fade() {
   $('.wrapper').fadeOut("slow");
   }
-  setTimeout(fade, 1000);
+  setTimeout(fade, 3000);

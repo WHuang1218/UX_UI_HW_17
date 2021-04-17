@@ -153,7 +153,6 @@ body {
 }
 
 section {
-  background-color: #F2E9D8;
   display: block;
 }
 
@@ -164,16 +163,15 @@ h1 {
   justify-content:right;
   color:#59544A;
   margin-left: 50px;
-  opacity: 50%;
+  
 }
 
 h2{
-  font-size: 55px;
+  font-size: 45px;
   line-height: 100%;
   padding: 10px;
   margin-top: 10px auto;
   color: #585449;
-  font-family: monofett ;
 }
 
 p {
@@ -194,9 +192,6 @@ p2 {
   font-size: 12px;
 }
 
-figcaption { 
-  margin-bottom: 25px;
-}
 
 
 .skill {

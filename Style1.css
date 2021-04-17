@@ -15,17 +15,19 @@ header {
 
 .logo {
   margin-right: auto;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #faebd7;
   font-weight: bold;
   font-size: 50px;
   font-family: 'IBM Plex Mono', monospace;
+  
 }
 
 
 .nav__links {
   list-style: none;
   display: flex;
+  margin-top: 20px;
 }
 
 .nav__links a,
@@ -55,15 +57,21 @@ header {
   padding: 9px 25px;
   background-color:#00754C;
   border: none;
+  margin-top: 5px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  text-decoration: none !important;
 }
 
 .cta:hover {
   background-color: #59544A;
+  color:#F2E9D8;
 }
 
+.logo:hover{
+  color:#F2E9D8;
+}
 /* Mobile Nav */
 
 .menu {
@@ -160,7 +168,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("AdobeStock_366445666.jpg");
+    background-image: url("AdobeStock_292062476.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -172,6 +180,7 @@ header {
   text-shadow: 2px 2px  #8D8C8A;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 15px;
+  margin-top: 5px;
 }
 
 .text {
@@ -185,6 +194,7 @@ header {
   text-align: justify;
   text-justify: auto;
    }
+
 
 .button {
     width: 50%;

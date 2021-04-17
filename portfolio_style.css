@@ -14,7 +14,7 @@ navigation {
 
 .logo {
   margin-right: auto;
-  text-decoration: none;
+  text-decoration: none !important;
   color:#faebd7;
   font-weight: bold;
   font-size: 50px;
@@ -24,6 +24,7 @@ navigation {
 .nav__links {
   list-style: none;
   display: flex;
+  margin-top: 20px;
 }
 
 .nav__links a,
@@ -51,16 +52,22 @@ navigation {
 
 .cta {
   margin-left: 20px;
+  margin-top: 5px;
   padding: 9px 25px;
   background-color:#00754C ;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  text-decoration: none !important;
 }
 
 .cta:hover {
   background-color: #59544A;
+  color:#F2E9D8;
+}
+.logo:hover{
+  color:#F2E9D8;
 }
 
 /* Mobile Nav */

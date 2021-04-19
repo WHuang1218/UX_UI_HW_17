@@ -145,7 +145,6 @@ navigation {
 img {
   border-radius: 15px;
   box-shadow: 1px 2px 30px #59544A;
-  margin-bottom: 15px;
 }
 
 body {
@@ -163,6 +162,7 @@ h1 {
   justify-content:right;
   color:#59544A;
   margin-left: 50px;
+  font-family: 'Monoton', cursive;
   
 }
 
@@ -186,7 +186,7 @@ p2 {
   margin-top: 10px;
   border-style:solid;
   border-color: #59544A;
-  background-color:#59544A;
+  background-color:#edf0f1;
   border-radius: 10px;
   color: #A69886;
   font-size: 12px;

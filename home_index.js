@@ -15,4 +15,4 @@ menuClose.addEventListener("click", () => {
 function fade() {
   $('.preloader').fadeOut("slow");
   }
-  setTimeout(fade, 4000);
+  setTimeout(fade, 2000);

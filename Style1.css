@@ -197,22 +197,6 @@ header {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .text {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 25px;
@@ -221,8 +205,6 @@ header {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
-  text-align: justify;
-  text-justify: auto;
    }
 
 
